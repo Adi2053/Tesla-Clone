@@ -1,4 +1,6 @@
 import React from 'react'
+import { TfiClose } from 'react-icons/tfi';
+
 
 const Navbar = () => {
   return (
@@ -30,6 +32,26 @@ const Navbar = () => {
       <a href="https://www.tesla.com/">
         <button className="inline-flex items-center py-2 px-4 rounded-md bg-black/5 text-sm font-medium shadhow-sm hover:bg-black/10">Menu</button>
         </a>
+      </div>
+      <div className="bg-white absolute top-0 right-0 w-80 h-full z-10">
+        <div className="flex justify-end pr-8 pt-8">
+          <TfiClose className="rounded p-1 hover:bg-black/5" size={28}/>
+        </div>
+        <ul className="pt-8 px-6">
+          <li className="py-3 pl-3 hover:rounded hover:bg-black/5">< a href="https://www.tesla.com/drive?selectedModel=ModelShttps://www.tesla.com/drive?selectedModel=ModelS">Model S</a></li>
+          <li className="py-3 pl-3 hover:rounded hover:bg-black/5">< a href="https://www.tesla.com/drive?selectedModel=ModelS">Model 3</a></li>
+          <li className="py-3 pl-3 hover:rounded hover:bg-black/5">< a href="https://www.tesla.com/drive?selectedModel=ModelS">Model X</a></li>
+          <li className="py-3 pl-3 hover:rounded hover:bg-black/5">< a href="https://www.tesla.com/drive?selectedModel=ModelS">Model Y</a></li>
+          <li className="py-3 pl-3 hover:rounded hover:bg-black/5">< a href="https://www.tesla.com/drive?selectedModel=ModelS">Solar Roof</a></li>
+          <li className="py-3 pl-3 hover:rounded hover:bg-black/5">< a href="https://www.tesla.com/drive?selectedModel=ModelS">Solar Panels</a></li>
+          <li className="py-3 pl-3 hover:rounded hover:bg-black/5">< a href="https://www.tesla.com/drive?selectedModel=ModelS">Existing Inventory</a></li>
+          <li className="py-3 pl-3 hover:rounded hover:bg-black/5">< a href="https://www.tesla.com/drive?selectedModel=ModelS">Used Inventory</a></li>
+          <li className="py-3 pl-3 hover:rounded hover:bg-black/5">< a href="https://www.tesla.com/drive?selectedModel=ModelS">Trade-In</a></li>
+          <li className="py-3 pl-3 hover:rounded hover:bg-black/5">< a href="https://www.tesla.com/drive?selectedModel=ModelS">Tets Drive</a></li>
+          <li className="py-3 pl-3 hover:rounded hover:bg-black/5">< a href="https://www.tesla.com/drive?selectedModel=ModelS">Insurance</a></li>
+          <li className="py-3 pl-3 hover:rounded hover:bg-black/5">< a href="https://www.tesla.com/drive?selectedModel=ModelS">Powerwall</a></li>
+        </ul>
+
       </div>
     </div>
   )
